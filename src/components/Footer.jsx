@@ -4,7 +4,7 @@ import { Box, Stack, Typography } from '@mui/material';
 import Logo from '../assets/images/logo-img.jpg';
 
 const Footer = () => (
-     <Box mt="80px" bgcolor="linear-gradient(to right, #ee0979, #ff6a00)" style={{ border: "1px solid #fff" }}>
+     <Box mt="80px" bgcolor="linear-gradient(to right, #ee0979, #ff6a00)" className="footer">
           <Stack gap="40px" sx={{ alignItems: 'center' }} flexWrap="wrap" px="40px" pt="24px">
                <img src={Logo} alt="logo" style={{ width: '200px', height: '80px', backgroundColor: "#fff", borderRadius: "50%" }} />
           </Stack>
